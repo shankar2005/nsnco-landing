@@ -3,16 +3,19 @@ import Events from './Pages/Home/Events'
 import Hero from './Pages/Home/Hero'
 import Services from './Pages/Home/Services'
 import Testimonial from './Pages/Home/Testimonial'
+import Footer from './Pages/Shared/Footer'
 import Navbar from './Pages/Shared/Navbar'
+import 'swiper/css';
 
 function App() {
   return (
-    <div className='w-10/12 mx-auto'>
+    <div className='w-10/12 max-w-screen-xl mx-auto'>
       <Navbar />
       <Hero />
       <Events />
       <Services />
       <Testimonial />
+      <Footer />
     </div>
   )
 }
