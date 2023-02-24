@@ -5,32 +5,32 @@ const Testimonial = () => {
     return (
         <div className='mb-20 '>
             <Swiper
-                spaceBetween={50}
+                spaceBetween={20}
                 slidesPerView={4}
             >
                 <SwiperSlide>
                     <div className="w-full">
-                        <img className="w-48" src="https://nsnco.in/assets/img/dettol-logo.png" alt="" />
+                        <img className="w-40" src="https://nsnco.in/assets/img/dettol-logo.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full">
-                        <img className="w-48" src="https://nsnco.in/assets/img/TheMomsCo-logo.png" alt="" />
+                        <img className="w-40" src="https://nsnco.in/assets/img/TheMomsCo-logo.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full">
-                        <img className="w-48" src="https://nsnco.in/assets/img/TheMomsCo-logo.png" alt="" />
+                        <img className="w-40" src="https://nsnco.in/assets/img/TheMomsCo-logo.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full">
-                        <img className="w-48" src="https://nsnco.in/assets/img/amazon.png" alt="" />
+                        <img className="w-40" src="https://nsnco.in/assets/img/amazon.png" alt="" />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="w-full">
-                        <img className="w-48" src="https://nsnco.in/assets/img/equal-experts.png" alt="" />
+                        <img className="w-40" src="https://nsnco.in/assets/img/equal-experts.png" alt="" />
                     </div>
                 </SwiperSlide>
             </Swiper>

@@ -15,7 +15,7 @@ const Events = () => {
                 </ul>
                 <button className='w-fit py-2.5 px-4 border rounded-full mt-5 active:scale-95 duration-200 hover:bg-white hover:text-slate-900 font-medium hover:shadow-md hover:shadow-white/50'>Brand Development</button>
             </div>
-            <div className='border p-16 flex flex-col justify-center'>
+            <div className='bg-gray-200 p-16 flex flex-col justify-center'>
                 <h3 className='text-3xl font-medium mb-3'>EVENT</h3>
                 <ul className='text-lg'>
                     <li>✅ Create brand videos</li>
@@ -24,7 +24,7 @@ const Events = () => {
                 </ul>
                 <button className='w-fit py-2.5 px-8 border rounded-full mt-5 active:scale-95 duration-200 text-white bg-slate-900 border-slate-900 font-medium hover:shadow-md hover:shadow-slate-900/50'>Host An Event</button>
             </div>
-            <div className='h-[328px] border p-16 flex justify-center items-center'>
+            <div className='bg-gray-200 h-[328px] p-16 flex justify-center items-center'>
                 <PopupButton
                     url={url}
                     rootElement={document.getElementById("root")}

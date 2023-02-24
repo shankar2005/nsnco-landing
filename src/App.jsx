@@ -9,12 +9,14 @@ import 'swiper/css';
 
 function App() {
   return (
-    <div className='w-10/12 max-w-screen-xl mx-auto'>
-      <Navbar />
-      <Hero />
-      <Events />
-      <Services />
-      <Testimonial />
+    <div>
+      <div className='w-10/12 max-w-screen-xl mx-auto'>
+        <Navbar />
+        <Hero />
+        <Events />
+        <Services />
+        <Testimonial />
+      </div>
       <Footer />
     </div>
   )
